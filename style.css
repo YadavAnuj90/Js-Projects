@@ -64,10 +64,12 @@ main {
     /* padding-left: 20px; */
     display: flex;
     overflow: hidden;
+    transition: width 0.25s ease-in-out;
 }
 
 .progress-value span {
     padding-left: 20px;
+    min-width: max-content;
 }
 
 .error-label {
